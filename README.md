@@ -1,16 +1,57 @@
-# untitled4
+# 📍 Geo-Fence Checker
 
-A new Flutter project.
+This project is a Flutter-based application that checks whether a given latitude and longitude are within a defined geofence area.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Validate geolocation coordinates.
+- Determine if a point is inside or outside a geofenced area.
+- Displays a result indicating location status.
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+Assignment-PWS/
+├── android/
+├── ios/
+├── lib/
+│   └── main.dart
+├── linux/
+├── web/
+└── README.md
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📡 Dependencies
+
+- Flutter SDK
+- geolocator: ^9.0.2
+
+## 📚 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/amarsky56/Assignment-PWS.git
+```
+2. Navigate to the project directory:
+```bash
+cd Assignment-PWS
+```
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+## ▶️ Usage
+
+Run the app:
+```bash
+flutter run
+```
+
+## 📌 How It Works
+- The app reads the user-provided latitude, longitude, and accuracy.
+- It checks if the location falls within the specified geofence polygon.
+- Displays results indicating whether the location is inside or outside the geofence.
+
+## 📧 Contact
+For further queries, please contact [Amar Parsad](mailto:amarsky56@gmail.com).
